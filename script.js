@@ -55,32 +55,32 @@ keys.addEventListener('click', e =>{
             switch (operacao) {
                 case "+":
                     arrayValores = stringValores.split("+")
-                    valor1 = parseInt(arrayValores[0])
-                    valor2 = parseInt(arrayValores[1])
+                    valor1 = parseFloat(arrayValores[0])
+                    valor2 = parseFloat(arrayValores[1])
                     resultado = valor1 + valor2
                     preview.textContent = valor1 + " + " + valor2 + " ="
                     display.textContent = resultado
                     break
                 case "-":
                     arrayValores = stringValores.split("-")
-                    valor1 = parseInt(arrayValores[0])
-                    valor2 = parseInt(arrayValores[1])
+                    valor1 = parseFloat(arrayValores[0])
+                    valor2 = parseFloat(arrayValores[1])
                     resultado = valor1 + valor2
                     preview.textContent = valor1 + " - " + valor2 + " ="
                     display.textContent = resultado
                     break
                 case "*":
                     arrayValores = stringValores.split("*")
-                    valor1 = parseInt(arrayValores[0])
-                    valor2 = parseInt(arrayValores[1])
+                    valor1 = parseFloat(arrayValores[0])
+                    valor2 = parseFloat(arrayValores[1])
                     resultado = valor1 * valor2
                     preview.textContent = valor1 + " * " + valor2 + " ="
                     display.textContent = resultado
                     break
                 case "/":
                     arrayValores = stringValores.split("/")
-                    valor1 = parseInt(arrayValores[0])
-                    valor2 = parseInt(arrayValores[1])
+                    valor1 = parseFloat(arrayValores[0])
+                    valor2 = parseFloat(arrayValores[1])
                     resultado = valor1 / valor2
                     preview.textContent = valor1 + " / " + valor2 + " ="
                     if (valor2 === 0) {
