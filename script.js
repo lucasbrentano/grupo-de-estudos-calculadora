@@ -14,6 +14,7 @@ keys.addEventListener('click', e =>{
         const action = key.dataset.action
         const keyContent = key.textContent
         const displayedNum = display.textContent
+        var textoDisplay = document.getElementById("user-input")
         if (!action) {
             if (displayedNum === "0") {
                 display.textContent = keyContent
@@ -50,7 +51,7 @@ keys.addEventListener('click', e =>{
             console.log("Funcionou")
             let valor1 = 0
             let valor2 = 0
-            let resultado = 0
+            let resultado = 0;
             stringValores = display.textContent
             switch (operacao) {
                 case "+":
@@ -83,11 +84,12 @@ keys.addEventListener('click', e =>{
                     valor2 = parseFloat(arrayValores[1])
                     resultado = valor1 / valor2
                     preview.textContent = valor1 + " / " + valor2 + " ="
+                    display.textContent = resultado
                     if (valor2 === 0) {
-                        var textoDisplay = document.getElementById("user-input")
                         textoDisplay.style.fontSize = "34px";
                         display.textContent = "Divisão por ZERO"
                     }
+                    break
             }
         }
 
@@ -100,6 +102,7 @@ keys.addEventListener('click', e =>{
         }
         if (action === 'clear') {
             display.textContent = "0"
+            textoDisplay.style.fontSize = "96px";
         }
     }
 })
