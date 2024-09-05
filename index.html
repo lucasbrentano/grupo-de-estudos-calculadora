@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container calculadora">
+    <div class="preview">
+      <p name="input-preview" id="input-preview">0</p>
+    </div>
+    <div class="display">
+      <p name="user-input" id="user-input">0</p>
+    </div>
+    <div class="botoes">
+      <button type="button" data-action="clear" class="botoes-outros">C</button>
+      <button type="button" data-action="positiveOrNegative" class="botoes-outros">&#177;</button>
+      <button type="button" data-action="percentage" class="botoes-outros">%</button>
+      <button type="button" data-action="divide" class="botoes-operacoes">&divide;</button>
+      <button type="button" class="botoes-numeros numeros">7</button>
+      <button type="button" class="botoes-numeros">8</button>
+      <button type="button" class="botoes-numeros">9</button>
+      <button type="button" data-action="multiply" class="botoes-operacoes">&times;</button>
+      <button type="button" class="botoes-numeros">4</button>
+      <button type="button" class="botoes-numeros">5</button>
+      <button type="button" class="botoes-numeros">6</button>
+      <button type="button" data-action="subtract" class="botoes-operacoes">-</button>
+      <button type="button" class="botoes-numeros">1</button>
+      <button type="button" class="botoes-numeros">2</button>
+      <button type="button" class="botoes-numeros">3</button>
+      <button type="button" data-action="add" class="botoes-operacoes">+</button>
+      <button type="button" data-action="decimal" class="botoes-numeros">.</button>
+      <button type="button" class="botoes-numeros">0</button>
+      <button type="button" data-action="delete" class="botoes-del"><i class="material-icons">backspace</i></button>
+      <button type="button" data-action="equals" class="botoes-operacoes">=</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
