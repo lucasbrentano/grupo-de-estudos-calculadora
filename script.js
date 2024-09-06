@@ -120,7 +120,8 @@ keys.addEventListener('click', e =>{
         }
 
         if (!action) {
-            if (displayedNum === "0" || previousKeyType === botoesOperacoes.textContent) {
+            if (displayedNum === "0" || previousKeyType === botoesOperacoes.textContent || display.textContent === "Divisão por 0!") {
+                textoDisplay.style.fontSize = "96px";
                 display.textContent = keyContent
             } else {
                 display.textContent = displayedNum + keyContent
