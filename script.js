@@ -44,6 +44,7 @@ keys.addEventListener('click', e =>{
                 preview.textContent = "";
             }
             if (preview.textContent.includes("=")) {
+                textoDisplay.style.fontSize = "96px";
                 preview.textContent = "" + display.textContent + "+"
                 display.textContent = "0"
             } else {
@@ -57,6 +58,7 @@ keys.addEventListener('click', e =>{
                 preview.textContent = ""
             }
             if (preview.textContent.includes("=")) {
+                textoDisplay.style.fontSize = "96px";
                 preview.textContent = "" + display.textContent + "-"
                 display.textContent = "0"
             } else {
@@ -70,6 +72,7 @@ keys.addEventListener('click', e =>{
                 preview.textContent = ""
             }
             if (preview.textContent.includes("=")) {
+                textoDisplay.style.fontSize = "96px";
                 preview.textContent = "" + display.textContent + "*"
                 display.textContent = "0"
             } else {
@@ -83,6 +86,7 @@ keys.addEventListener('click', e =>{
                 preview.textContent = ""
             }
             if (preview.textContent.includes("=")) {
+                textoDisplay.style.fontSize = "96px";
                 preview.textContent = "" + display.textContent + "/"
                 display.textContent = "0"
             } else {
@@ -111,6 +115,9 @@ keys.addEventListener('click', e =>{
             } else {
                 preview.textContent += display.textContent + "="
                 display.textContent = resultado
+                if (display.textContent.length > 7) {
+                    textoDisplay.style.fontSize = "34px";
+                }
             }
 
         }
