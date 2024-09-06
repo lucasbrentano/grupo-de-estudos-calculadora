@@ -2,6 +2,8 @@
 
 *_Referências para calculadora_*
 
+[MDN Web Docs](https://developer.mozilla.org/en-US/)
+
 [W3](https://www.w3schools.com/js/default.asp)
 
 [Free Codecamp](https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98/)
