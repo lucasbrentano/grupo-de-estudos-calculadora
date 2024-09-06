@@ -31,6 +31,9 @@ body {
     font-weight: 300;
     font-size: 40px;
     line-height: 47px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
 }
 
 .display {
@@ -50,6 +53,9 @@ body {
     outline: none;
     word-wrap: break-word;
     word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
 }
 
 .botoes {
