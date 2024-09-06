@@ -11,3 +11,5 @@
 [Guia p/ Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 [Layout Figma](https://www.figma.com/design/2pFEvUQU20zoYhtDTPqWDz/Responsive-Calculator-App-(Community)?node-id=0-1&node-type=CANVAS&t=fWQCh2iQ7wG8PQ03-0)
+
+IDE : [WebStorm](https://www.jetbrains.com/webstorm/)
